@@ -28,9 +28,11 @@ Here's how I handle the errors. If the type of the site is none, I'll fill it wi
 1) Use requirements.txt to set your virtual environment
 
 2) cd to the place you saved my files, and then type at the command prompt: python national_scraping_caching.py
+
 This command is used to cache all the json files from the website.
 
 3) Type at the command prompt: python SI507_project4.py 
+
 This command is to extract data from json files, handle all the errors and save the data in a .CSV file.
 
 ## Use requirements.txt to set your virtual environment
