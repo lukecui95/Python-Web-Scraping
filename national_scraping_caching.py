@@ -19,5 +19,3 @@ for i in range(len(states_abbr)):
     if not data:
         data = requests.get(url).text # get the text attribute from the Response that requests.get returns -- and save it in a variable. This should be a bunch of html and stuff
         program_cache.set(url, data, expire_in_days=1) # just 1 day here because news site / for an example in class
-
-
