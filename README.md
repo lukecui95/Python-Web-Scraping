@@ -1,4 +1,4 @@
-# Project 4 - OPTION 1 : Scraping & dealing with data - Pengwei Cui
+# Scraping & dealing with data - Pengwei Cui
 
 In this project, first I used caching to store all the National Sites data into json files. Then, I extracted the useful data for each sites from the json files and saved the data in a .CSV file such that each row represents 1 national site. Moreover, I reasonably handled all errors.
 
